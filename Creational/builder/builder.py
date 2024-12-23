@@ -1,3 +1,7 @@
+# Builder Design Pattern useful
+# dividing the constructor creation process into multiple steps / parts
+# when the object creation is complex and we want to separate the construction of a complex object from its representation
+# different values can be assigned to same constrcuted object
 
 # Main concrete class
 class Computer:
@@ -80,4 +84,6 @@ if __name__ == "__main__":
     computer_director = ComputerDirector(builder)
     make_gaming_pc = computer_director.build_gaming_computer()
     print(f"Building gaming pc with: {make_gaming_pc}")
+    make_office_pc = computer_director.build_office_computer()
+    print(f"Building office pc with: {make_office_pc}")
 

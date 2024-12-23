@@ -1,6 +1,10 @@
 from abc import ABC, abstractmethod
 from factory import TrainTicketFactory
 
+# Abstarct Factory
+# similar to factory method but the difference is that it returns the factory object
+# where as factory method returns the object of the product class
+# Abstract factory is used when we have multiple factories and each factory creates multiple products
 
 # Abstarct Factory 
 class TrainTypeAndBookingFactory(ABC):

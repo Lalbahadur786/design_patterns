@@ -1,3 +1,7 @@
+# Prototype design pattern
+# when object creation is costly )(resource constraints)
+# useful when base configuration is similiar and we want to customize the object
+
 import copy
 
 # Base prototype class

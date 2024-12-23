@@ -1,6 +1,10 @@
 """
 """
-
+# Singlton design pattern usefil in 
+# Database connection management
+# Logger
+# Configuration management
+# Caching and many more where central (global) point of control is required
 class Singleton:
     _instance = None
     
